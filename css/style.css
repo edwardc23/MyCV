@@ -15,7 +15,7 @@ hr{
   display: block;
 
   /* Set a specific height */
-  min-height: 550px;
+  min-height: 700px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
