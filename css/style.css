@@ -14,6 +14,11 @@ hr{
 img{
   height:auto;
 }
+.image-edu
+{
+  height: 150px;
+  width: 150px;
+}
 .profile-pic{
   height: 200px;
   border-radius: 50%;
