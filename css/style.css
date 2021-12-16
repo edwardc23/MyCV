@@ -1,4 +1,7 @@
 body{
+  margin: 0;
+  padding: 0;
+  font-family: Verdana;
   background-color: #ffd7b5;
 }
 hr{
@@ -8,13 +11,19 @@ hr{
   border-width: thick;
   width: 100%;
 }
+img{
+  height:auto;
+}
+.profile-pic{
+  height: 200px;
+  border-radius: 50%;
+}
+.header-img{
 
-.parallax-cross {
-  /* The image used */
-  background-image: url("https://img.freepik.com/free-photo/cross-hill-sunset_53089-104.jpg?size=626&ext=jpg");
-  display: block;
-
-  /* Set a specific height */
+  width: 100%;
+  height: 250px;
+}
+.parallax{
   min-height: 700px;
 
   /* Create the parallax scrolling effect */
@@ -23,9 +32,45 @@ hr{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
 .summary{
   font-size: 15px;
   font-style: oblique;
   font-weight: bold;
 
+}
+.navbar{
+  width: 100%;
+  height: 50px;
+  top: 0;
+
+  position: fixed;
+  background-color: #444;
+  border-color: blue;
+
+  opacity: 0.9;
+  display: inline-block;
+  font-size: 36px;
+}
+.navbar a{
+  color: white;
+}
+.navbar ul{
+  float: right;
+  margin: 0;
+  margin-right: 20px;
+  padding: 0;
+  list-style-type: none;
+}
+.navbar li{
+  display: inline-block;
+}
+.navbar ul li a {
+  font-size: 36px;
+  color: white;
+}
+.navbar ul li a:hover
+{
+  color: purple;
 }

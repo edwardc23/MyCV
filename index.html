@@ -4,15 +4,31 @@
 <head>
   <meta charset="utf-8">
   <link rel="icon" href="Logo.ico" type="image/x-icon">
-  <title>✞Edward Cochran's Personal Site</title>
+  <title>✞Edward Cochran's Personal Site✞</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <div class="parallax-cross">
+  <div class="parallax" style="background-image:url('holy-bible-on-laptop-computer.jpg')">
+
+
+  </div>
+  <nav class=navbar >
+    <a href="hobbies.html">Hobbies</a>
+    <ul class = menu-list>
+      <li><a href="#workExp">Work Experience</a></li>
+      <li><a href="#School">School</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- <img class="header-img" src="C:\Users\Edward Cochran\Documents\Files for Git\MyCV\holy-bible-on-laptop-computer.jpg" alt=""> -->
+
+  <div class="parallax" style="background-image:url('https://img.freepik.com/free-photo/cross-hill-sunset_53089-104.jpg?size=626&ext=jpg')">
     <table cellspacing="19">
       <tr>
-
+        <td>
+          <img class="profile-pic" src="C:\Users\Edward Cochran\Documents\Web Development\HTML - Personal Site\Picture.jpg" alt="">
+        </td>
         <td>
           <h1>Edward Cochran</h1>
           <em>Junior Software Developer</em>
@@ -27,8 +43,12 @@
 
     </table>
   </div>
+    <span class="anchor" id="workExp"></span>
+    <br>
   <hr>
-  <table>
+
+  <!-- Work Experience -->
+  <table >
     <thead>
       <h2>
         Work Experience
@@ -37,7 +57,7 @@
     <tbody>
       <tr>
         <!-- Web Designer/Freelance -->
-        <tr>
+      <tr>
         <td>
           <h6>SEPTEMBER 2021 – PRESENT</h6>
           Web Designer/Freelance, Atlanta, Georgia
@@ -49,9 +69,10 @@
             <li>Maintain website by updating content, implementing new technology and monitoring performance</li>
             <li>Create web compliant metadata for SEO find-ability</li>
           </ul>
-        </td></tr>
-        <!-- Amazon Flex Driver -->
-        <tr>
+        </td>
+      </tr>
+      <!-- Amazon Flex Driver -->
+      <tr>
         <td>
           <h6>September 2021-PRESENT</h6>
           Amazon Flex Driver/Amazon, Atlanta, Georgia
@@ -59,10 +80,11 @@
             <li>Follow and assists with Health and Safety Protocol </li>
             <li>Receive and organize packages into orderly fashion to decrease time of driving</li>
             <li>Deliver packages in a timely manner and with care</li>
-          </ul></td>
-        </tr>
-        <!-- Java Full Stack Developer -->
-        <tr>
+          </ul>
+        </td>
+      </tr>
+      <!-- Java Full Stack Developer -->
+      <tr>
         <td>
           <h6>MARCH 2020-APRIL 2021</h6>
           Java Full Stack Developer/Pyramid Consulting, Alpharetta, GA
@@ -72,9 +94,10 @@
             <li>Wrote highly maintainable code in Java for various projects as part of a team project utilizing JAVA, SQL, and React.</li>
             <li>Developed an Employee Attendance program to perform attendance checks and also print completed versions of the attendance sheet.</li>
           </ul>
-        </td></tr>
-        <!-- IT Specialist Intern -->
-        <tr>
+        </td>
+      </tr>
+      <!-- IT Specialist Intern -->
+      <tr>
         <td>
           <h6>MAY 2015-JUNE 2016</h6>
           IT Specialist Intern/Capstone Financial Partners, Atlanta, Georgia
@@ -83,14 +106,13 @@
             <li>Installed and configured company software on new associate’s computers/printers</li>
             <li>Maintained inventory and encryption log</li>
           </ul>
-        </td></tr>
+        </td>
       </tr>
-
-
-
-
+      </tr>
     </tbody>
   </table>
+  <span class="anchor" id="School"></span>
+  <br>
   <hr>
   <!-- School Experience -->
   <table border="1">
@@ -104,17 +126,27 @@
     </thead>
     <tbody>
       <tr>
-        <td>2013-2016</td>
-        <td>Georgia State University </td>
-        <td>Associate's Degree in Computer Science </td>
+        <td>2020</td>
+        <td>Pyramid Academy</td>
+        <td>Java Full Stack Developer</td>
+        <td> <img src="academy-logo.jpg" alt="">     </td>
       </tr>
       <tr>
         <td>2016-2019</td>
         <td> Georgia State University </td>
         <td>Bachelor's Degree in Computer Science </td>
+        <td><img src="61dfbec635b6b2eda4e38305fdeb9b54.gif" alt="">
+      </tr>
+      <tr>
+        <td>2013-2016</td>
+        <td>Georgia State University </td>
+        <td>Associate's Degree in Computer Science </td>
+        <td><img src="61dfbec635b6b2eda4e38305fdeb9b54.gif" alt="">
+      </td>
       </tr>
     </tbody>
   </table>
+  <span></span>
   <hr>
   <!-- Skills tab -->
   <table cellspacing="15">
@@ -139,14 +171,25 @@
     </tbody>
   </table>
   <hr>
+  <!-- Training -->
   <h2>Training</h2>
   <ul>
     <li>Pyramid Java Full Stack Boot Camp</li>
   </ul>
   <hr>
+  <button type="button" name="button" onclick="workButton">Try It</button>
   <!-- <a href="hobbies.html" link>Hobbies</a>
   <a href="Contact.html" link>Contact Us</a> -->
-
+<script type="text/javascript">
+  function workButton() {
+    console.console.log("Im here");
+    var button = document.createElement("Button");
+    var t = document.createTextNode("Click")
+    button.setAttribute("style","color:red;font-size:23px");
+    button.appendChild(t);
+    document.body.appendChild(button);
+  }
+</script>
 </body>
 
 </html>
