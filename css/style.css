@@ -2,7 +2,7 @@ body{
   margin: 0;
   padding: 0;
   font-family: Verdana;
-  background-color: #ffd7b5;
+  background-color: #949398FF;
 }
 hr{
   border-style: none;
@@ -14,14 +14,26 @@ hr{
 img{
   height:auto;
 }
+input{
+  width: 150px;
+}
+table{
+  width: 100%;
+}
 .Footer{
   width: 100%;
   height: 250px;
 
-  background-color: #CBC3E3;
+  background-color: #F4DF4EFF;
 }
-.image-edu
-{
+.footer-image{
+  height: 30px;
+  width: 30px;
+  margin-left: 500px;
+  margin-top: 125px;
+}
+
+.image-edu{
   height: 150px;
   width: 150px;
 }
@@ -35,7 +47,7 @@ img{
   height: 250px;
 }
 .parallax{
-  min-height: 700px;
+  min-height: 725px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -43,8 +55,6 @@ img{
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-
 .summary{
   font-size: 15px;
   font-style: oblique;
@@ -77,11 +87,12 @@ img{
 .navbar li{
   display: inline-block;
 }
-.navbar ul li a {
-  font-size: 36px;
+.navbar ul li{
   color: white;
 }
-.navbar ul li a:hover
-{
+.navbar ul li a {
+  font-size: 25px;
+}
+.navbar ul li a:hover{
   color: purple;
 }
