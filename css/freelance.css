@@ -1,0 +1,55 @@
+@media only screen and (max-width:800px) {
+.capturethevision{
+  position: relative;
+  top:462px;
+  height: 130px;
+  width: 250px;
+}
+.cap{
+  position: relative;
+  top:-495px;
+  left:0;
+  width: 579px;
+  height: 345px;
+  border-radius: 10px 10px 10px 10px;
+  margin-left: 8.5px;
+
+}
+.empty{
+  position: absolute;
+  top:0;
+  left: 60px;
+  z-index: -1;
+}
+}
+@media only screen and (min-width:801px) {
+  /* capturethevision logo */
+  .capturethevision{
+    position: relative;
+    top:-40px;
+    left: 280px;
+    height: 130px;
+    width: 250px;
+  }
+  /* capturethevision screenshot */
+  .cap{
+    position: relative;
+    top: -145px;
+    left:-601px;
+    width: 579px;
+    height: 345px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 8.5px;
+
+  }
+  .empty{
+    margin: 0 auto;
+  }
+}
+.homeButton{
+  text-align: right;
+  position: relative;
+  top: -60px;
+  font-size: 25px;
+
+}
